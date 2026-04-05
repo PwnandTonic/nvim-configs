@@ -186,6 +186,13 @@ require("lazy").setup({
   end,
 },
 
+{
+  "KieranCanter/candela.nvim",
+  config = function()
+    require("candela").setup({})
+  end,
+},
+
 })
 
 require("telescope").setup({
